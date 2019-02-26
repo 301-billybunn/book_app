@@ -1,1 +1,6 @@
 /* base.css */
+
+body {
+  background: grey;
+  font-family: Helvetica, Arial, sans-serif
+}

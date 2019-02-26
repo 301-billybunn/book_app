@@ -23,15 +23,15 @@
 
 ## Time Estimates
 <!-- For each of the features listed on the Trello board, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature. -->
-Number and name of feature: ________________________________
+Number and name of feature: Feature #1
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 9:30 am
 
-Finish time: _____
+Finish time: 10:00 am
 
-Actual time needed to complete: _____
+Actual time needed to complete: 30 minutes
 
 ---
 Number and name of feature: ________________________________
