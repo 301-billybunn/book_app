@@ -29,16 +29,17 @@ app.get('*', (request, response) => response.status(404).send('This route does n
 app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
 
 // HELPER FUNCTIONS
-// Only show part of this to get students started
 function Book(info) {
-  const placeHolder = 'https://i.imgur.com/J5LVHEL.jpg';
   this.title = info.title || 'No Title Avaialble';
+  this.picture = info.imageLinks ? info.imageLinks.thumbnail : 'https://i.imgur.com/J5LVHEL.jpg'; // placeholder img
+  this.author = info.authors;
+  this.description = info.description;
 }
 
 // Note that .ejs file extension is not required
 function newSearch(request, response) {
   response.render('pages/index'); //location for ejs files
-  app.use(express.static('./public'));//location for other files like css
+  app.use(express.static('./public')); //location for other files like css
 }
 
 // No API key required
@@ -46,17 +47,17 @@ function newSearch(request, response) {
 function createSearch(request, response) {
   let url = 'https://www.googleapis.com/books/v1/volumes?q=';
 
-  console.log(request.body)
-  console.log(request.body.search)
-
   if (request.body.search[1] === 'title') { url += `+intitle:${request.body.search[0]}`; }
   if (request.body.search[1] === 'author') { url += `+inauthor:${request.body.search[0]}`; }
 
-  console.log(url);
+  console.log('url:', url);
 
   superagent.get(url)
     .then(apiResponse => apiResponse.body.items.map(bookResult => new Book(bookResult.volumeInfo)))
-    .then(results => response.render('pages/searches/show', { searchesResults: results }));
+    .then(results => {
+      // console.log({ searchesResults: results });
+      response.render('pages/searches/show', { searchesResults: results });
+    })
 
   // how will we handle errors?
 }

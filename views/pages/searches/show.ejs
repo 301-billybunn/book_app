@@ -1,1 +1,25 @@
-<!-- show.ejs -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <h1>Best Books!</h1>
+  <p><a href="/">Home</a></p>
+</head>
+
+<body>
+  <h2>Search Results</h2>
+
+  <ul>
+    <% searchesResults.forEach(book => { %>
+    <img src= '<%= book.picture %>' ></img>
+      <ul>
+        <li> <%= book.title %></li>
+        <li> <%= book.author %></li>
+        <li> <%= book.description %></li>
+      </ul>
+    <% }) %>
+  </ul>
+
+</body>
+
+</html>
