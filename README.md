@@ -34,33 +34,33 @@ Finish time: 10:00 am
 Actual time needed to complete: 30 minutes
 
 ---
-Number and name of feature: ________________________________
+Number and name of feature: Feature #2 & #3
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 10:00 am
 
-Finish time: _____
+Finish time: 11:15 am
 
-Actual time needed to complete: _____
-
----
-Number and name of feature: ________________________________
-
-Estimate of time needed to complete: _____
-
-Start time: _____
-
-Finish time: _____
-
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hour, 15 minutes
 
 ---
-Number and name of feature: ________________________________
+Number and name of feature: Feature #4
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 30 minutes
 
-Start time: _____
+Start time: 11:30 am
+
+Finish time: 11:40 am
+
+Actual time needed to complete: 10 minutes
+
+---
+Number and name of feature: Feature 5#
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 11:40 am
 
 Finish time: _____
 
