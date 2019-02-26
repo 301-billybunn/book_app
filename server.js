@@ -22,7 +22,7 @@ app.use(express.static('./public'));
 
 
 // ****************************************
-// API Routes
+// Routes
 // ****************************************
 
 // Renders the search form
@@ -31,12 +31,8 @@ app.get('/', newSearch);
 // Creates a new search to the Google Books API
 app.post('/searches', createSearch);
 
-// Catch-all
-// app.get('*', (request, response) => response.status(404).send('/error.ejs'));
-app.get('*', (request, response) => {
-  response.status(404).render('pages/error')
-});
-
+// Catch-all route that renders the error page
+app.get('*', (request, response) => response.status(404).render('pages/error'));
 
 // Make sure server is listening for requests
 app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
@@ -78,6 +74,4 @@ function createSearch(request, response) {
       // console.log({ searchesResults: results });
       response.render('pages/searches/show', { searchesResults: results });
     })
-
-  // how will we handle errors?
 }
