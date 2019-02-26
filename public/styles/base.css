@@ -1,6 +1,79 @@
 /* base.css */
 
+html, body {
+  height: 100%;
+}
+
 body {
-  background: grey;
-  font-family: Helvetica, Arial, sans-serif
+  background: #9B9B9B;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  /* align-items: center; */
+  
+}
+
+h1 {
+  /* background: #000000; */
+  color: #fff;
+  font-size: 5vw;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body div {
+  height: 8vw;
+  background: #4A4A4A;
+}
+
+h2 {
+  padding-top: 2vw;
+  font-size: 4vw;
+  background: #4A4A4A;
+  color: #fff;
+  /* padding: 0px auto; */
+  text-align: center;
+}
+
+#search-results {
+
+}
+
+header {
+  height: 12vw;
+  background-color: black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+header>* {
+  /* display: inline; */
+  padding: 0px 2vw;
+}
+
+#menu-symbol {
+  height: 5vw;
+}
+
+main {
+  flex: 1 1 auto;
+  position: relative;
+  overflow-y: auto;
+}
+
+.books {
+  background: #D8D8D8;
+  margin: 5px;
+}
+
+.title {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 4vw;
 }
