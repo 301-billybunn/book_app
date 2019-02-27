@@ -6,6 +6,6 @@ CREATE TABLE IF NOT EXISTS books (
   title VARCHAR(255),
   isbn NUMERIC(13, 0),
   image_url VARCHAR(255),
-  descript VARCHAR(65535),
+  descript TEXT,
   bookshelf VARCHAR(255)
 );

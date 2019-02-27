@@ -22,12 +22,18 @@
     </div>
     <ul>
       <% searchesResults.forEach(book => { %>
-      <li class="books">
-        <img src='<%= book.picture %>'></img>
+      <li id="<%=book.id%>" class="books">
+        <img src='<%= book.image_url %>'></img>
         <ul>
           <li class="title"> <%= book.title %></li>
           <li class="author"> <%= book.author %></li>
           <li class="description"> <%= book.description %></li>
+          <li><a href="/detail/<%=book.id%>" method="post">Select this Book</a></li>
+          <br/>
+          <br/>
+          <form action="/detail/<%=book.id%>" method="post">
+            <button type="submit">Get Book Details</button>
+          </form>
         </ul>
       </li>
       <% }) %>

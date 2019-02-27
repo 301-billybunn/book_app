@@ -1,1 +1,38 @@
 <!-- detail.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Book Collection</title>
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/base.css">
+  <link rel="stylesheet" href="../styles/layout.css">
+  <link rel="stylesheet" href="../styles/modules.css">
+</head>
+
+<body>
+  <header>
+    <h1>Best Books!</h1>
+    <p><a href="/">Home</a></p>
+    <a href="/search-form">Search for more books</a>
+  </header>
+
+  <main>
+    <h2>Number of Saved Books: </h4>
+      <ul>
+        <% book => { %>
+        <li class="books">
+          <img src='<%= book.image_url %>'></img>
+          <ul>
+            <li class="title"> <%= book.title %></li>
+            <li class="author"> <%= book.author %></li>
+            <li class="description"> <%= book.description %></li>
+          </ul>
+        </li>
+        <% }) %>
+      </ul>
+  </main>
+</body>
+
+</html>

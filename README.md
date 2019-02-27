@@ -17,7 +17,7 @@ Read some books!
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
 -->
-02-27-2019 0957 - Application now has a functional database (books_app) to cache information. Beginning rewrite of path to include said database.
+02-27-2019 0957 - 1.0.1 - Application now has a functional database (books_app) to cache information. Beginning rewrite of path to include said database.
 
 <!-- 
 ## Credits and Collaborations
