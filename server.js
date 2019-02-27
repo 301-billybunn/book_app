@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Set the file locations for ejs templates and static files like CSS
 app.set('view engine', 'ejs');
-app.use(express.static('./public'));
+app.use(express.static('./public')); // points to all the files we're going to send to the client
 
 
 // ****************************************
@@ -34,7 +34,7 @@ app.post('/searches', createSearch);
 // Catch-all route that renders the error page
 app.get('*', (request, response) => response.status(404).render('pages/error'));
 
-// Make sure server is listening for requests
+// Make sure server is listening for requests ("flips the switch" to turn the server "on")
 app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
 
 // ****************************************
@@ -47,6 +47,8 @@ function Book(info) {
   this.picture = info.imageLinks ? info.imageLinks.thumbnail : 'https://i.imgur.com/J5LVHEL.jpg'; // placeholder img
   this.author = info.authors;
   this.description = info.description;
+  // this.id = info.industryIdentifiers ? info.industryIdentifiers[1].identifier : ;
+  // this.isbn = 
 }
 
 // ****************************************
