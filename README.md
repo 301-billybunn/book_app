@@ -65,3 +65,14 @@ Start time: 11:40 am
 Finish time: 1:10 pm
 
 Actual time needed to complete: 30 minutes
+
+---
+Number and name of feature: Feature 6#  --Beginning of lab day 2--
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 9:30 am
+
+Finish time: 
+
+Actual time needed to complete:
