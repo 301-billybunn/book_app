@@ -27,7 +27,7 @@ app.use(express.static('./public')); // points to all the files we're going to s
 // Database Setup
 const client = new pg.Client(process.env.DATABASE_URL);
 client.connect();
-client.on('error', err=> console.log(err));
+client.on('error', err => console.log(err));
 
 // ****************************************
 // Routes
@@ -36,18 +36,17 @@ client.on('error', err=> console.log(err));
 // Renders the home page with saved books
 app.get('/', loadSavedBooks);
 
-// Renders the search form view
+// When use clicks 'search for books', renders the search form view
 app.get('/search-form', loadSearchForm);
 
-// Fired when user clicks 'submit' on search form, redirects to results
+// When user clicks 'submit' button on the search form, renders search results view
 app.post('/search-results', createSearch);
 
-// 
-// app.post('/details/:book.id', getBookDetails);
+// When user clicks 'view details' button for an individual book, renders a book details view for that book
+app.get('/detail/:book_id', getBookDetails);
 
-// Adds a book to the database
+// When a user clicks 'save book' for a search result, adds the book to the database and renders the home page with saved books
 app.post('/selectedBook', saveBook);
-
 
 // Catch-all route that renders the error page
 app.get('*', (request, response) => response.status(404).render('pages/error'));
@@ -89,28 +88,30 @@ function createSearch(request, response) {
   if (request.body.search[1] === 'title') { url += `+intitle:${request.body.search[0]}`; }
   if (request.body.search[1] === 'author') { url += `+inauthor:${request.body.search[0]}`; }
 
-  console.log('url:', url);
+  // console.log('url:', url);
 
   superagent.get(url)
     .then(apiResponse => apiResponse.body.items.map(bookResult => new Book(bookResult.volumeInfo)))
     .then(results => {
-      console.log(results);
+      // console.log(results);
       response.render('pages/searches/show', { searchesResults: results });
     })
 }
 
 // Renders the book detils view.
-function getBookDetails(request, response){
-  console.log('fired getBookDetails');
-  console.log('102', )
-  response.render('pages/books/detail');
-  app.use(express.static('./public'))
+function getBookDetails(request, response) {
+  const SQL = `SELECT * FROM books WHERE id=$1;`; // SQL query
+  let values = [request.params.book_id]; // Grabs the id unique to each book stored in the database
+
+  return client.query(SQL, values)
+    .then(result => response.render('pages/books/detail', { book: result.rows[0] })) // TODO: add comment here
+    .catch(error => handleError(error, response));
 }
 
 // Saves a book to the SQL database on button click
 function saveBook(request, response) {
   console.log(request.body); // request from the client
-  let {author, title, isbn, image_url, descript, bookshelf} = request.body;
+  let { author, title, isbn, image_url, descript, bookshelf } = request.body;
 
   let SQL = `INSERT INTO books(author, title, isbn, image_url, descript, bookshelf) VALUES ($1, $2, $3, $4, $5, $6);`;
   let values = [author, title, isbn, image_url, descript, bookshelf];
@@ -125,11 +126,11 @@ function loadSavedBooks(request, response) {
   const SQL = `SELECT * FROM books;`; // SQL query
 
   return client.query(SQL)
-    .then(databaseResults => response.render('pages/index', {databaseResults: databaseResults.rows}))
+    .then(databaseResults => response.render('pages/index', { databaseResults: databaseResults.rows }))
     .catch(error => handleError(error, response));
 }
 
 // Error handler
 function handleError(error, response) {
-  response.render('pages/error', {error: 'Something went wrong'});
+  response.render('pages/error', { error: 'Something went wrong' });
 }

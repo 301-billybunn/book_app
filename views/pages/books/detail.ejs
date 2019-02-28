@@ -1,39 +1,23 @@
 <!-- detail.ejs -->
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Book Collection</title>
-  <link rel="stylesheet" href="../styles/reset.css">
-  <link rel="stylesheet" href="../styles/base.css">
-  <link rel="stylesheet" href="../styles/layout.css">
-  <link rel="stylesheet" href="../styles/modules.css">
+  <%- include('../../layout/head')%>
 </head>
 
 <body>
   <header>
-    <h1>Best Books!</h1>
-    <p><a href="/">Home</a></p>
-    <a href="/search-form">Search for more books</a>
+    <%- include('../../layout/header')%>
   </header>
 
   <main>
-    <h2>Number of Saved Books: </h4>
+    <h2>Book Details: </h4>
       <ul>
-        <% book => { %>
-        <li class="books">
-          <img src='<%= book.image_url %>'></img>
-          <ul>
-            <li class="title"> <%= book.title %></li>
-            <li class="author"> <%= book.author %></li>
-            <li class="description"> <%= book.description %></li>
-            <li class="bookshelf"> <%= book.bookshelf %></li>
-          </ul>
-        </li>
-        <% }) %>
+        <%- include('../../layout/book')%>
       </ul>
   </main>
 </body>
 
-</html> -->
+</html>
