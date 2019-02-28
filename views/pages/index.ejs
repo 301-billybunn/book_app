@@ -2,17 +2,12 @@
 <html lang="en">
 
 <head>
-  <title>Book Collection</title>
-  <link rel="stylesheet" href="../styles/reset.css">
-  <link rel="stylesheet" href="../styles/base.css">
-  <link rel="stylesheet" href="../styles/layout.css">
-  <link rel="stylesheet" href="../styles/modules.css">
+  <%- include('../layout/head')%>
 </head>
 
 <body>
   <header>
-    <h1>Best Books!</h1>
-    <p><a href="/">Home</a></p>
+    <%- include('../layout/header')%>
     <a href="/search-form">Search for more books</a>
   </header>
 
@@ -20,15 +15,17 @@
     <h2>Number of Saved Books: <%= databaseResults.length %></h4>
       <ul>
         <% databaseResults.forEach(book => { %>
-        <li class="books">
-          <img src='<%= book.image_url %>'></img>
-          <ul>
-            <li class="title"> <%= book.title %></li>
-            <li class="author"> <%= book.author %></li>
-            <li class="description"> <%= book.descript %></li>
-          </ul>
-          <a href="/detail/<%= book.id%>">View Details</a>
-        </li>
+          <li class="books">
+            <img src="<%= book.image_url %>"></img>
+            <ul>
+              <li class="title"> Title: <%= book.title %></li>
+              <li class="author"> Author: <%= book.author %></li>
+              <li class="ISBN"> ISBN 13: <%= book.isbn %></li>
+              <li class="description"> Description: <%= book.descript%></li>
+              <li class="bookshelf"> Your Bookshelf: <%= book.bookshelf %></li>
+            </ul>
+          </li>
+        <a href="/detail/<%= book.id%>">View Details</a>
         <% }) %>
       </ul>
   </main>

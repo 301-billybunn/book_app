@@ -26,6 +26,7 @@ Give credit (and a link) to other people or resources that helped you build this
 -->
 
 ## Time Estimates
+### Day 1
 <!-- For each of the features listed on the Trello board, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature. -->
 Number and name of feature: Feature #1
 
@@ -71,12 +72,28 @@ Finish time: 1:10 pm
 Actual time needed to complete: 30 minutes
 
 ---
-Number and name of feature: Feature 6#  --Beginning of lab day 2--
+
+### Day 2
+
+Number and name of feature: Feature 1#
 
 Estimate of time needed to complete: 1 hour
 
 Start time: 9:30 am
 
-Finish time: 
+Finish time: 1:30 pm
 
-Actual time needed to complete:
+Actual time needed to complete: 4 hours
+
+---
+Number and name of feature: ____
+
+Estimate of time needed to complete: ____
+
+Start time: ____
+
+Finish time: ____
+
+Actual time needed to complete: ____
+
+---
