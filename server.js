@@ -65,7 +65,7 @@ function Book(info) {
   this.isbn = info.industryIdentifiers[1] ? info.industryIdentifiers[1].identifier : `No ISBN Available`;
   this.image_url = info.imageLinks ? info.imageLinks.thumbnail : 'https://i.imgur.com/J5LVHEL.jpg'; // placeholder img
   this.descript = info.description ? info.description : 'No Description Available';
-  // this.id = info.industryIdentifiers ? info.industryIdentifiers[1].identifier : this.title;
+  // this.id = info.industryIdentifiers ? info.industryIdentifiers[1].identifier : info.title;
   // this.id = index;
   this.bookshelf = 'User entry'; // TODO: add user entry to Book object
 }
