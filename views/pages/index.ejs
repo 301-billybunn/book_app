@@ -17,7 +17,7 @@
   </header>
 
   <main>
-    <h2>Number of Saved Books: </h4>
+    <h2>Number of Saved Books: <%= databaseResults.length %></h4>
       <ul>
         <% databaseResults.forEach(book => { %>
         <li class="books">
@@ -25,7 +25,7 @@
           <ul>
             <li class="title"> <%= book.title %></li>
             <li class="author"> <%= book.author %></li>
-            <li class="description"> <%= book.description %></li>
+            <li class="description"> <%= book.descript %></li>
           </ul>
         </li>
         <% }) %>

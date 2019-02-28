@@ -77,3 +77,16 @@ main {
   text-shadow: 1px 1px 2px black;
   font-size: 4vw;
 }
+
+.details-form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.details-form label {
+  /* display: block; */
+}
+.details-form input {
+  /* display: block; */
+  width: 60vw;
+}

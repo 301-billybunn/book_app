@@ -43,7 +43,10 @@ app.get('/search-form', loadSearchForm);
 app.post('/search-results', createSearch);
 
 // 
-app.post('/details/:book.id', getBookDetails);
+// app.post('/details/:book.id', getBookDetails);
+
+// Adds a book to the database
+app.post('/selectedBook', saveBook);
 
 
 // Catch-all route that renders the error page
@@ -57,14 +60,14 @@ app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
 // ****************************************
 
 // Constructor needed for createSearch()
-function Book(info, index) {
-  this.author = info.authors || 'No Author Available';
-  this.title = info.title || 'No Title Avaialble';
-  this.isbn = info.industryIdentifiers ? `ISBN 13: ${info.industryIdentifiers[1].identifier}` : `No ISBN Available`;
+function Book(info) {
+  this.author = info.authors ? info.authors : 'No Author Available';
+  this.title = info.title ? info.title : 'No Title Avaialble';
+  this.isbn = info.industryIdentifiers[1] ? info.industryIdentifiers[1].identifier : `No ISBN Available`;
   this.image_url = info.imageLinks ? info.imageLinks.thumbnail : 'https://i.imgur.com/J5LVHEL.jpg'; // placeholder img
-  this.description = info.description;
+  this.descript = info.description ? info.description : 'No Description Available';
   // this.id = info.industryIdentifiers ? info.industryIdentifiers[1].identifier : this.title;
-  this.id = index;
+  // this.id = index;
   this.bookshelf = 'User entry'; // TODO: add user entry to Book object
 }
 
@@ -89,7 +92,7 @@ function createSearch(request, response) {
   console.log('url:', url);
 
   superagent.get(url)
-    .then(apiResponse => apiResponse.body.items.map(bookResult => new Book(bookResult.volumeInfo, apiResponse.body.items.indexOf(bookResult))))
+    .then(apiResponse => apiResponse.body.items.map(bookResult => new Book(bookResult.volumeInfo)))
     .then(results => {
       console.log(results);
       response.render('pages/searches/show', { searchesResults: results });
@@ -107,13 +110,13 @@ function getBookDetails(request, response){
 // Saves a book to the SQL database on button click
 function saveBook(request, response) {
   console.log(request.body); // request from the client
-  let {author, title, isbn, image_url, description, bookshelf} = request.body;
+  let {author, title, isbn, image_url, descript, bookshelf} = request.body;
 
-  let SQL = `INSERT INTO books(author, title, isbn, image_url, description, bookshelf) VALUES ($1, $2, $3, $4, $5, $6);`;
-  let values = [author, title, isbn, image_url, description, bookshelf];
+  let SQL = `INSERT INTO books(author, title, isbn, image_url, descript, bookshelf) VALUES ($1, $2, $3, $4, $5, $6);`;
+  let values = [author, title, isbn, image_url, descript, bookshelf];
 
   return client.query(SQL, values)
-    .then(response.redirect('/'))
+    .then(response.redirect('/')) // TODO: possibly render book details view after adding new book
     .catch(error => handleError(error, response));
 }
 

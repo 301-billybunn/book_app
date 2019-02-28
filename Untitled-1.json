@@ -1,753 +1,731 @@
 {
-  "kind": "books#volumes",
-  "totalItems": 35,
-  "items": [
-      {
-          "kind": "books#volume",
-          "id": "xJ6U1VK3SRcC",
-          "etag": "eZi+xTP3PME",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/xJ6U1VK3SRcC",
-          "volumeInfo": {
-              "title": "David Foster Wallace's Infinite Jest",
-              "authors": [
-                  "Stephen Burn"
-              ],
-              "publisher": "A&C Black",
-              "publishedDate": "2003-05-20",
-              "description": "This is part of a new series of guides to contemporary novels. The aim of the series is to give readers accessible and informative introductions to some of the most popular, most acclaimed and most influential novels of recent years - from ‘The Remains of the Day' to ‘White Teeth'. A team of contemporary fiction scholars from both sides of the Atlantic has been assembled to provide a thorough and readable analysis of each of the novels in question.",
-              "industryIdentifiers": [
-                  {
-                      "type": "ISBN_10",
-                      "identifier": "082641477X"
-                  },
-                  {
-                      "type": "ISBN_13",
-                      "identifier": "9780826414779"
-                  }
-              ],
-              "readingModes": {
-                  "text": true,
-                  "image": true
-              },
-              "pageCount": 96,
-              "printType": "BOOK",
-              "categories": [
-                  "Literary Criticism"
-              ],
-              "averageRating": 3.5,
-              "ratingsCount": 3,
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": false,
-              "contentVersion": "0.0.1.0.preview.3",
-              "panelizationSummary": {
-                  "containsEpubBubbles": false,
-                  "containsImageBubbles": false
-              },
-              "imageLinks": {
-                  "smallThumbnail": "http://books.google.com/books/content?id=xJ6U1VK3SRcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                  "thumbnail": "http://books.google.com/books/content?id=xJ6U1VK3SRcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-              },
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=xJ6U1VK3SRcC&printsec=frontcover&dq=intitle:infinite+jest&hl=&cd=1&source=gbs_api",
-              "infoLink": "http://books.google.com/books?id=xJ6U1VK3SRcC&dq=intitle:infinite+jest&hl=&source=gbs_api",
-              "canonicalVolumeLink": "https://books.google.com/books/about/David_Foster_Wallace_s_Infinite_Jest.html?hl=&id=xJ6U1VK3SRcC"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "NOT_FOR_SALE",
-              "isEbook": false
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "PARTIAL",
-              "embeddable": true,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED",
-              "epub": {
-                  "isAvailable": true,
-                  "acsTokenLink": "http://books.google.com/books/download/David_Foster_Wallace_s_Infinite_Jest-sample-epub.acsm?id=xJ6U1VK3SRcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-              },
-              "pdf": {
-                  "isAvailable": false
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=xJ6U1VK3SRcC&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "SAMPLE",
-              "quoteSharingAllowed": false
-          },
-          "searchInfo": {
-              "textSnippet": "This is part of a new series of guides to contemporary novels."
-          }
-      },
-      {
-          "kind": "books#volume",
-          "id": "Nhe2yvx6hP8C",
-          "etag": "4zIQ68wkWtA",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/Nhe2yvx6hP8C",
-          "volumeInfo": {
-              "title": "Infinite Jest",
-              "authors": [
-                  "David Foster Wallace"
-              ],
-              "publisher": "Back Bay Books",
-              "publishedDate": "2009-04-13",
-              "description": "A gargantuan, mind-altering comedy about the Pursuit of Happiness in America set in an addicts' halfway house and a tennis academy, and featuring the most endearingly screwed-up family to come along in recent fiction, Infinite Jest explores essential questions about what entertainment is and why it has come to so dominate our lives; about how our desire for entertainment affects our need to connect with other people; and about what the pleasures we choose say about who we are. Equal parts philosophical quest and screwball comedy, Infinite Jest bends every rule of fiction without sacrificing for a moment its own entertainment value. It is an exuberant, uniquely American exploration of the passions that make us human - and one of those rare books that renew the idea of what a novel can do.",
-              "industryIdentifiers": [
-                  {
-                      "type": "ISBN_10",
-                      "identifier": "0316073857"
-                  },
-                  {
-                      "type": "ISBN_13",
-                      "identifier": "9780316073851"
-                  }
-              ],
-              "readingModes": {
-                  "text": true,
-                  "image": false
-              },
-              "pageCount": 1104,
-              "printType": "BOOK",
-              "categories": [
-                  "Fiction"
-              ],
-              "averageRating": 4,
-              "ratingsCount": 117,
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": true,
-              "contentVersion": "1.20.18.0.preview.2",
-              "panelizationSummary": {
-                  "containsEpubBubbles": false,
-                  "containsImageBubbles": false
-              },
-              "imageLinks": {
-                  "smallThumbnail": "http://books.google.com/books/content?id=Nhe2yvx6hP8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                  "thumbnail": "http://books.google.com/books/content?id=Nhe2yvx6hP8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-              },
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=Nhe2yvx6hP8C&printsec=frontcover&dq=intitle:infinite+jest&hl=&cd=2&source=gbs_api",
-              "infoLink": "https://play.google.com/store/books/details?id=Nhe2yvx6hP8C&source=gbs_api",
-              "canonicalVolumeLink": "https://market.android.com/details?id=book-Nhe2yvx6hP8C"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "FOR_SALE",
-              "isEbook": true,
-              "listPrice": {
-                  "amount": 12.99,
-                  "currencyCode": "USD"
-              },
-              "retailPrice": {
-                  "amount": 12.99,
-                  "currencyCode": "USD"
-              },
-              "buyLink": "https://play.google.com/store/books/details?id=Nhe2yvx6hP8C&rdid=book-Nhe2yvx6hP8C&rdot=1&source=gbs_api",
-              "offers": [
-                  {
-                      "finskyOfferType": 1,
-                      "listPrice": {
-                          "amountInMicros": 12990000,
-                          "currencyCode": "USD"
-                      },
-                      "retailPrice": {
-                          "amountInMicros": 12990000,
-                          "currencyCode": "USD"
-                      },
-                      "giftable": true
-                  }
-              ]
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "PARTIAL",
-              "embeddable": false,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED",
-              "epub": {
-                  "isAvailable": true,
-                  "acsTokenLink": "http://books.google.com/books/download/Infinite_Jest-sample-epub.acsm?id=Nhe2yvx6hP8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-              },
-              "pdf": {
-                  "isAvailable": false
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=Nhe2yvx6hP8C&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "SAMPLE",
-              "quoteSharingAllowed": false
-          },
-          "searchInfo": {
-              "textSnippet": "A gargantuan, mind-altering comedy about the Pursuit of Happiness in America set in an addicts&#39; halfway house and a tennis academy, and featuring the most endearingly screwed-up family to come along in recent fiction, Infinite Jest explores ..."
-          }
-      },
-      {
-          "kind": "books#volume",
-          "id": "XaRHD7QukDYC",
-          "etag": "E2qPKUBe7P0",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/XaRHD7QukDYC",
-          "volumeInfo": {
-              "title": "David Foster Wallace's Infinite Jest",
-              "subtitle": "A Reader's Guide",
-              "authors": [
-                  "Stephen J. Burn"
-              ],
-              "publisher": "Bloomsbury Publishing USA",
-              "publishedDate": "2012-04-19",
-              "description": "Infinite Jest has been hailed as one the great modern American novels and its author, David Foster Wallace, who committed suicide in 2008, as one of the most influential and innovative authors of the past 20 years. Don DeLillo called Infinite Jest a \"three-stage rocket to the future,\" a work \"equal to the huge, babbling spin-out sweep of contemporary life,\" while Time Magazine included Infinite Jest on its list of 100 Greatest Novels published between 1923-2006. David Foster Wallace's Infinite Jest: A Reader's Guide was the first book to be published on the novel and is a key reference for those who wish to explore further. Infinite Jest has become an exemplar for difficulty in contemporary Fiction-its 1,079 pages full of verbal invention, oblique narration, and a scattered, nonlinear, chronology. In this comprehensively revised second edition, Burn maps Wallace's influence on contemporary American fiction, outlines Wallace's poetics, and provides a full-length study of the novel, drawing out the most important themes and ideas, before surveying Wallace's post-Infinite Jest output, including The Pale King.",
-              "industryIdentifiers": [
-                  {
-                      "type": "ISBN_13",
-                      "identifier": "9781441186324"
-                  },
-                  {
-                      "type": "ISBN_10",
-                      "identifier": "1441186328"
-                  }
-              ],
-              "readingModes": {
-                  "text": true,
-                  "image": true
-              },
-              "pageCount": 144,
-              "printType": "BOOK",
-              "categories": [
-                  "Literary Criticism"
-              ],
-              "averageRating": 3.5,
-              "ratingsCount": 3,
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": true,
-              "contentVersion": "1.7.7.0.preview.3",
-              "panelizationSummary": {
-                  "containsEpubBubbles": false,
-                  "containsImageBubbles": false
-              },
-              "imageLinks": {
-                  "smallThumbnail": "http://books.google.com/books/content?id=XaRHD7QukDYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                  "thumbnail": "http://books.google.com/books/content?id=XaRHD7QukDYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-              },
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=XaRHD7QukDYC&printsec=frontcover&dq=intitle:infinite+jest&hl=&cd=3&source=gbs_api",
-              "infoLink": "https://play.google.com/store/books/details?id=XaRHD7QukDYC&source=gbs_api",
-              "canonicalVolumeLink": "https://market.android.com/details?id=book-XaRHD7QukDYC"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "FOR_SALE",
-              "isEbook": true,
-              "listPrice": {
-                  "amount": 23.35,
-                  "currencyCode": "USD"
-              },
-              "retailPrice": {
-                  "amount": 14.01,
-                  "currencyCode": "USD"
-              },
-              "buyLink": "https://play.google.com/store/books/details?id=XaRHD7QukDYC&rdid=book-XaRHD7QukDYC&rdot=1&source=gbs_api",
-              "offers": [
-                  {
-                      "finskyOfferType": 1,
-                      "listPrice": {
-                          "amountInMicros": 23350000,
-                          "currencyCode": "USD"
-                      },
-                      "retailPrice": {
-                          "amountInMicros": 14010000,
-                          "currencyCode": "USD"
-                      },
-                      "giftable": true
-                  }
-              ]
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "PARTIAL",
-              "embeddable": true,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED",
-              "epub": {
-                  "isAvailable": true,
-                  "acsTokenLink": "http://books.google.com/books/download/David_Foster_Wallace_s_Infinite_Jest-sample-epub.acsm?id=XaRHD7QukDYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-              },
-              "pdf": {
-                  "isAvailable": true,
-                  "acsTokenLink": "http://books.google.com/books/download/David_Foster_Wallace_s_Infinite_Jest-sample-pdf.acsm?id=XaRHD7QukDYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=XaRHD7QukDYC&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "SAMPLE",
-              "quoteSharingAllowed": false
-          },
-          "searchInfo": {
-              "textSnippet": "David Foster Wallace&#39;s Infinite Jest: A Reader&#39;s Guide was the first book to be published on the novel and is a key reference for those who wish to explore further."
-          }
-      },
-      {
-          "kind": "books#volume",
-          "id": "Tjq5BgAAQBAJ",
-          "etag": "lySiUUb/wN0",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/Tjq5BgAAQBAJ",
-          "volumeInfo": {
-              "title": "The Narrative Game: The Reading of David Foster Wallace’s Infinite Jest as Play",
-              "authors": [
-                  "Rainer Holl"
-              ],
-              "publisher": "Anchor Academic Publishing (aap_verlag)",
-              "publishedDate": "2013-06-01",
-              "description": "In 1996, David Foster Wallace published his second major novel 'Infinite Jest' that changed not only our understanding of what literature can do but, also the way we read literature. Despite its age, the book has not lost a single bit of its fascination, its actuality, and its academic appeal. With its hundreds of characters, thousands of pages, hundreds of endnotes and myriads of different perspectives, sub-plots, and narrative digressions, 'Infinite Jest' was, and still is, an extraordinary challenge for its readers as well as literary critics. One interesting question related to Wallace's work is to what extent readers are able to establish, and defend their own way of approaching literature, their natural reading habits, their personal boundaries, and their ‘readerly authority’ that are challenged by their discourse with the book. The author shows in how far the reader of 'Infinite Jest' has to get involved in this work of play, how it affects the way they read the book, and how the idiosyncratic reading experience finally becomes an integral part of the whole book itself.",
-              "industryIdentifiers": [
-                  {
-                      "type": "ISBN_13",
-                      "identifier": "9783954895571"
-                  },
-                  {
-                      "type": "ISBN_10",
-                      "identifier": "3954895579"
-                  }
-              ],
-              "readingModes": {
-                  "text": false,
-                  "image": true
-              },
-              "pageCount": 47,
-              "printType": "BOOK",
-              "categories": [
-                  "Literary Collections"
-              ],
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": false,
-              "contentVersion": "0.6.0.0.preview.1",
-              "panelizationSummary": {
-                  "containsEpubBubbles": false,
-                  "containsImageBubbles": false
-              },
-              "imageLinks": {
-                  "smallThumbnail": "http://books.google.com/books/content?id=Tjq5BgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                  "thumbnail": "http://books.google.com/books/content?id=Tjq5BgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-              },
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=Tjq5BgAAQBAJ&printsec=frontcover&dq=intitle:infinite+jest&hl=&cd=4&source=gbs_api",
-              "infoLink": "https://play.google.com/store/books/details?id=Tjq5BgAAQBAJ&source=gbs_api",
-              "canonicalVolumeLink": "https://market.android.com/details?id=book-Tjq5BgAAQBAJ"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "FOR_SALE",
-              "isEbook": true,
-              "listPrice": {
-                  "amount": 28.91,
-                  "currencyCode": "USD"
-              },
-              "retailPrice": {
-                  "amount": 15.61,
-                  "currencyCode": "USD"
-              },
-              "buyLink": "https://play.google.com/store/books/details?id=Tjq5BgAAQBAJ&rdid=book-Tjq5BgAAQBAJ&rdot=1&source=gbs_api",
-              "offers": [
-                  {
-                      "finskyOfferType": 1,
-                      "listPrice": {
-                          "amountInMicros": 28910000,
-                          "currencyCode": "USD"
-                      },
-                      "retailPrice": {
-                          "amountInMicros": 15610000,
-                          "currencyCode": "USD"
-                      },
-                      "giftable": true
-                  }
-              ]
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "PARTIAL",
-              "embeddable": true,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
-              "epub": {
-                  "isAvailable": false
-              },
-              "pdf": {
-                  "isAvailable": true
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=Tjq5BgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "SAMPLE",
-              "quoteSharingAllowed": false
-          },
-          "searchInfo": {
-              "textSnippet": "The author shows in how far the reader of &#39;Infinite Jest&#39; has to get involved in this work of play, how it affects the way they read the book, and how the idiosyncratic reading experience finally becomes an integral part of the whole book ..."
-          }
-      },
-      {
-          "kind": "books#volume",
-          "id": "-EZcoBEYcskC",
-          "etag": "GfvnerCcinA",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/-EZcoBEYcskC",
-          "volumeInfo": {
-              "title": "Infinite Jest",
-              "subtitle": "Caricature and Satire from Leonardo to Levine",
-              "authors": [
-                  "Metropolitan Museum of Art (New York, N.Y.)",
-                  "Constance C. McPhee",
-                  "Nadine Orenstein"
-              ],
-              "publisher": "Metropolitan Museum of Art",
-              "publishedDate": "2011",
-              "description": "Published in conjunction with an exhibition held at the Metropolitan Museum of Art, New York, Sept. 13, 2011-Mar. 4, 2012.",
-              "industryIdentifiers": [
-                  {
-                      "type": "ISBN_13",
-                      "identifier": "9781588394293"
-                  },
-                  {
-                      "type": "ISBN_10",
-                      "identifier": "1588394298"
-                  }
-              ],
-              "readingModes": {
-                  "text": false,
-                  "image": true
-              },
-              "pageCount": 216,
-              "printType": "BOOK",
-              "categories": [
-                  "Caricatures and cartoons"
-              ],
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": false,
-              "contentVersion": "0.1.0.0.preview.1",
-              "imageLinks": {
-                  "smallThumbnail": "http://books.google.com/books/content?id=-EZcoBEYcskC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                  "thumbnail": "http://books.google.com/books/content?id=-EZcoBEYcskC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-              },
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=-EZcoBEYcskC&pg=PA170&dq=intitle:infinite+jest&hl=&cd=5&source=gbs_api",
-              "infoLink": "http://books.google.com/books?id=-EZcoBEYcskC&dq=intitle:infinite+jest&hl=&source=gbs_api",
-              "canonicalVolumeLink": "https://books.google.com/books/about/Infinite_Jest.html?hl=&id=-EZcoBEYcskC"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "NOT_FOR_SALE",
-              "isEbook": false
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "PARTIAL",
-              "embeddable": true,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED",
-              "epub": {
-                  "isAvailable": false
-              },
-              "pdf": {
-                  "isAvailable": false
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=-EZcoBEYcskC&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "SAMPLE",
-              "quoteSharingAllowed": false
-          },
-          "searchInfo": {
-              "textSnippet": "... Collection, The Elisha Whittelsey Fund, 1959 595334110 Woodward, who <br>\noften designed images etched by Rowlandson, makes brilliant use of a metaphor <br>\nof consumption to capture Napoleon at his most powerful, in the <b>summer</b> of 1808."
-          }
-      },
-      {
-          "kind": "books#volume",
-          "id": "aEyikQEACAAJ",
-          "etag": "GvsvoIJT/TQ",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/aEyikQEACAAJ",
-          "volumeInfo": {
-              "title": "The Reading of David Foster Wallace's \"Infinite Jest\" as Play",
-              "authors": [
-                  "Rainer Holl"
-              ],
-              "publishedDate": "2013-08",
-              "description": "Bachelor Thesis from the year 2010 in the subject American Studies - Literature, grade: 1,0, TU Dortmund (Institut fur Anglistik und Amerikanistik), language: English, abstract: In 1996, David Foster Wallace published his second major novel 'Infinite Jest' that changed not only our understanding of what literature can do but also the way we read literature. With its hundreds of characters, thousands of pages, hundreds of endnotes and myriads of different perspectives, sub-plots and narrative digressions, Infinite Jest was and still is a extraordinary challenge for its readers. An interesting question related to Wallaces work is to what extent readers are able to establish and defend their own rules and boundaries that are challenged by their discourse with the book. The whole reading process can thus be seen as a work of play that is established between the poles of 'infinity' and 'jest'. This opens up a new narratological dimension which has an immediate impact on the autonomy of the reader. I want to find out in how far the readers of 'Infinite Jest' have to get involved in this work of play, how it affects the way they read the book and how the idiosyncratic reading experience finally becomes an integral part of the whole book itself.",
-              "industryIdentifiers": [
-                  {
-                      "type": "ISBN_10",
-                      "identifier": "3656322694"
-                  },
-                  {
-                      "type": "ISBN_13",
-                      "identifier": "9783656322696"
-                  }
-              ],
-              "readingModes": {
-                  "text": false,
-                  "image": false
-              },
-              "pageCount": 52,
-              "printType": "BOOK",
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": false,
-              "contentVersion": "preview-1.0.0",
-              "imageLinks": {
-                  "smallThumbnail": "http://books.google.com/books/content?id=aEyikQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-                  "thumbnail": "http://books.google.com/books/content?id=aEyikQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-              },
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=aEyikQEACAAJ&dq=intitle:infinite+jest&hl=&cd=6&source=gbs_api",
-              "infoLink": "http://books.google.com/books?id=aEyikQEACAAJ&dq=intitle:infinite+jest&hl=&source=gbs_api",
-              "canonicalVolumeLink": "https://books.google.com/books/about/The_Reading_of_David_Foster_Wallace_s_In.html?hl=&id=aEyikQEACAAJ"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "NOT_FOR_SALE",
-              "isEbook": false
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "NO_PAGES",
-              "embeddable": false,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED",
-              "epub": {
-                  "isAvailable": false
-              },
-              "pdf": {
-                  "isAvailable": false
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=aEyikQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "NONE",
-              "quoteSharingAllowed": false
-          },
-          "searchInfo": {
-              "textSnippet": "I want to find out in how far the readers of &#39;Infinite Jest&#39; have to get involved in this work of play, how it affects the way they read the book and how the idiosyncratic reading experience finally becomes an integral part of the whole ..."
-          }
-      },
-      {
-          "kind": "books#volume",
-          "id": "DO3yjgEACAAJ",
-          "etag": "sgDHljCT08M",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/DO3yjgEACAAJ",
-          "volumeInfo": {
-              "title": "Infinite LEGO",
-              "subtitle": "Reimagining David Foster Wallace's Infinite Jest Through LEGO",
-              "authors": [
-                  "Ryan Blanck"
-              ],
-              "publishedDate": "2015-12-03",
-              "description": "It all began on a date night with my wife a couple of years back. We live in a rather boring town, and money was kind of tight, so after a relatively inexpensive dinner at our favorite pizza place we went to browse the aisles of our local Barnes & Noble. We happened upon The Brick Bible by Brendan Smith and loved the concept--the entire Biblical narrative retold in graphic novel form, but with the images being LEGO sculptures. Feeling inspired, we enlisted the help of our daughters to launch our own LEGO Bible blog. We got through the book of Genesis and part way through Exodus before the project sputtered and fell by the wayside. A couple of years later, I was working on my proposal for a paper the first annual David Foster Wallace Conference hosted by Illinois State University, and I gave a second read to the \"Original Creative Works\" call for submissions. Then a thought came to me.\"I like David Foster Wallace,\" I thought.\"I like LEGOs,\" I thought.\"So, why not bring those two together,\" I thought. I selected some of my favorite scenes from some of my favorite stories, and I began to build. Scenes from \"Little Expressionless Animals,\" \"Forever Overhead,\" and \"Good People;\" along with scenes from the novels: Broom of the System, Infinite Jest, and The Pale King. Even one taken from \"This is Water.\" I built the sculptures and photographed them and assembled the images into a digital slideshow. Then it was off to Bloomington-Normal for the Conference.At the Conference, I was honored to be selected as a featured panelist for my \"Reimagining Wallace\" presentation. Then I was shocked to see such a large crowd gathered to view my creations on the very large screen. I did not expect pictures of LEGOs to be such a hit at an academic conference.Inspired by the positive response to my presentation, I went home and continued building.",
-              "industryIdentifiers": [
-                  {
-                      "type": "ISBN_10",
-                      "identifier": "1943170134"
-                  },
-                  {
-                      "type": "ISBN_13",
-                      "identifier": "9781943170135"
-                  }
-              ],
-              "readingModes": {
-                  "text": false,
-                  "image": false
-              },
-              "printType": "BOOK",
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": false,
-              "contentVersion": "preview-1.0.0",
-              "imageLinks": {
-                  "smallThumbnail": "http://books.google.com/books/content?id=DO3yjgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-                  "thumbnail": "http://books.google.com/books/content?id=DO3yjgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-              },
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=DO3yjgEACAAJ&dq=intitle:infinite+jest&hl=&cd=7&source=gbs_api",
-              "infoLink": "http://books.google.com/books?id=DO3yjgEACAAJ&dq=intitle:infinite+jest&hl=&source=gbs_api",
-              "canonicalVolumeLink": "https://books.google.com/books/about/Infinite_LEGO.html?hl=&id=DO3yjgEACAAJ"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "NOT_FOR_SALE",
-              "isEbook": false
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "NO_PAGES",
-              "embeddable": false,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED",
-              "epub": {
-                  "isAvailable": false
-              },
-              "pdf": {
-                  "isAvailable": false
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=DO3yjgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "NONE",
-              "quoteSharingAllowed": false
-          },
-          "searchInfo": {
-              "textSnippet": "Scenes from &quot;Little Expressionless Animals,&quot; &quot;Forever Overhead,&quot; and &quot;Good People;&quot; along with scenes from the novels: Broom of the System, Infinite Jest, and The Pale King. Even one taken from &quot;This is Water."
-          }
-      },
-      {
-          "kind": "books#volume",
-          "id": "N_zVAAAAMAAJ",
-          "etag": "OHpq/D6C1po",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/N_zVAAAAMAAJ",
-          "volumeInfo": {
-              "title": "Infinite Jest",
-              "subtitle": "Wit and Humor in Italian Renaissance Art",
-              "authors": [
-                  "Paul Barolsky"
-              ],
-              "publisher": "Columbia : University of Missouri Press",
-              "publishedDate": "1978",
-              "industryIdentifiers": [
-                  {
-                      "type": "OTHER",
-                      "identifier": "UOM:39015013268779"
-                  }
-              ],
-              "readingModes": {
-                  "text": false,
-                  "image": false
-              },
-              "pageCount": 224,
-              "printType": "BOOK",
-              "categories": [
-                  "Humor"
-              ],
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": false,
-              "contentVersion": "preview-1.0.0",
-              "imageLinks": {
-                  "smallThumbnail": "http://books.google.com/books/content?id=N_zVAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-                  "thumbnail": "http://books.google.com/books/content?id=N_zVAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-              },
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=N_zVAAAAMAAJ&q=intitle:infinite+jest&dq=intitle:infinite+jest&hl=&cd=8&source=gbs_api",
-              "infoLink": "http://books.google.com/books?id=N_zVAAAAMAAJ&dq=intitle:infinite+jest&hl=&source=gbs_api",
-              "canonicalVolumeLink": "https://books.google.com/books/about/Infinite_Jest.html?hl=&id=N_zVAAAAMAAJ"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "NOT_FOR_SALE",
-              "isEbook": false
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "NO_PAGES",
-              "embeddable": false,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED",
-              "epub": {
-                  "isAvailable": false
-              },
-              "pdf": {
-                  "isAvailable": false
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=N_zVAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "NONE",
-              "quoteSharingAllowed": false
-          }
-      },
-      {
-          "kind": "books#volume",
-          "id": "XAXzlgEACAAJ",
-          "etag": "BjRbMvJX/S8",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/XAXzlgEACAAJ",
-          "volumeInfo": {
-              "title": "Into the Womb of Infinite Jest",
-              "subtitle": "The Entertainment as 'Speculum'",
-              "authors": [
-                  "Danielle S. Ely"
-              ],
-              "publishedDate": "2011",
-              "industryIdentifiers": [
-                  {
-                      "type": "OTHER",
-                      "identifier": "OCLC:825770521"
-                  }
-              ],
-              "readingModes": {
-                  "text": false,
-                  "image": false
-              },
-              "pageCount": 98,
-              "printType": "BOOK",
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": false,
-              "contentVersion": "preview-1.0.0",
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=XAXzlgEACAAJ&dq=intitle:infinite+jest&hl=&cd=9&source=gbs_api",
-              "infoLink": "http://books.google.com/books?id=XAXzlgEACAAJ&dq=intitle:infinite+jest&hl=&source=gbs_api",
-              "canonicalVolumeLink": "https://books.google.com/books/about/Into_the_Womb_of_Infinite_Jest.html?hl=&id=XAXzlgEACAAJ"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "NOT_FOR_SALE",
-              "isEbook": false
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "NO_PAGES",
-              "embeddable": false,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED",
-              "epub": {
-                  "isAvailable": false
-              },
-              "pdf": {
-                  "isAvailable": false
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=XAXzlgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "NONE",
-              "quoteSharingAllowed": false
-          }
-      },
-      {
-          "kind": "books#volume",
-          "id": "vqM9NAAACAAJ",
-          "etag": "KDDaY23pHBI",
-          "selfLink": "https://www.googleapis.com/books/v1/volumes/vqM9NAAACAAJ",
-          "volumeInfo": {
-              "title": "Fellows of Infinite Jest",
-              "subtitle": "The Fool in Renaissance England",
-              "authors": [
-                  "Anu Korhonen"
-              ],
-              "publishedDate": "1999",
-              "industryIdentifiers": [
-                  {
-                      "type": "OTHER",
-                      "identifier": "OCLC:58314659"
-                  }
-              ],
-              "readingModes": {
-                  "text": false,
-                  "image": false
-              },
-              "pageCount": 331,
-              "printType": "BOOK",
-              "categories": [
-                  "1500-luku / ysa"
-              ],
-              "maturityRating": "NOT_MATURE",
-              "allowAnonLogging": false,
-              "contentVersion": "preview-1.0.0",
-              "language": "en",
-              "previewLink": "http://books.google.com/books?id=vqM9NAAACAAJ&dq=intitle:infinite+jest&hl=&cd=10&source=gbs_api",
-              "infoLink": "http://books.google.com/books?id=vqM9NAAACAAJ&dq=intitle:infinite+jest&hl=&source=gbs_api",
-              "canonicalVolumeLink": "https://books.google.com/books/about/Fellows_of_Infinite_Jest.html?hl=&id=vqM9NAAACAAJ"
-          },
-          "saleInfo": {
-              "country": "US",
-              "saleability": "NOT_FOR_SALE",
-              "isEbook": false
-          },
-          "accessInfo": {
-              "country": "US",
-              "viewability": "NO_PAGES",
-              "embeddable": false,
-              "publicDomain": false,
-              "textToSpeechPermission": "ALLOWED",
-              "epub": {
-                  "isAvailable": false
-              },
-              "pdf": {
-                  "isAvailable": false
-              },
-              "webReaderLink": "http://play.google.com/books/reader?id=vqM9NAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
-              "accessViewStatus": "NONE",
-              "quoteSharingAllowed": false
-          }
-      }
-  ]
+    "kind": "books#volumes",
+    "totalItems": 56,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "BrgeEEykkP8C",
+            "etag": "NumsueijICs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/BrgeEEykkP8C",
+            "volumeInfo": {
+                "title": "Where the Red Fern Grows",
+                "authors": [
+                    "Wilson Rawls"
+                ],
+                "publisher": "Laurel Leaf",
+                "publishedDate": "2011-01-12",
+                "description": "A beloved classic that captures the powerful bond between man and man’s best friend. Billy has long dreamt of owning not one, but two, dogs. So when he’s finally able to save up enough money for two pups to call his own—Old Dan and Little Ann—he’s ecstatic. It doesn’t matter that times are tough; together they’ll roam the hills of the Ozarks. Soon Billy and his hounds become the finest hunting team in the valley. Stories of their great achievements spread throughout the region, and the combination of Old Dan’s brawn, Little Ann’s brains, and Billy’s sheer will seems unbeatable. But tragedy awaits these determined hunters—now friends—and Billy learns that hope can grow out of despair, and that the seeds of the future can come from the scars of the past. Praise for Where the Red Fern Grows A Top 100 Children’s Novel, School Library Journal's A Fuse #8 Production A Must-Read for Kids 9 to 14, NPR Winner of Multiple State Awards Over 7 million copies in print! “Very touching.” —The New York Times Book Review “One of the great classics of children’s literature . . . Any child who doesn’t get to read this beloved and powerfully emotional book has missed out on an important piece of childhood for the last 40-plus years.” —Common Sense Media “An exciting tale of love and adventure you’ll never forget.” —School Library Journal “A book of unadorned naturalness.” —Kirkus Reviews “Written with so much feeling and sentiment that adults as well as children are drawn [in] with a passion.” —Arizona Daily Star “It’s a story about a young boy and his two hunting dogs and . . . I can’t even go on without getting a little misty.” —The Huffington Post “We tear up just thinking about it.” —Time on the film adaptation",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780307781567"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0307781569"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 256,
+                "printType": "BOOK",
+                "categories": [
+                    "Juvenile Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 31,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.5.5.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=BrgeEEykkP8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=BrgeEEykkP8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=BrgeEEykkP8C&printsec=frontcover&dq=intitle:where+the+red+fern+grows&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=BrgeEEykkP8C&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-BrgeEEykkP8C"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=BrgeEEykkP8C&rdid=book-BrgeEEykkP8C&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 7990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Where_the_Red_Fern_Grows-sample-epub.acsm?id=BrgeEEykkP8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=BrgeEEykkP8C&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Praise for Where the Red Fern Grows A Top 100 Children’s Novel, School Library Journal&#39;s A Fuse #8 Production A Must-Read for Kids 9 to 14, NPR Winner of Multiple State Awards Over 7 million copies in print! “Very touching.” —The ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "TVGrZ_Z2y7oC",
+            "etag": "0U0sz0cTbTQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/TVGrZ_Z2y7oC",
+            "volumeInfo": {
+                "title": "Where the Red Fern Grows",
+                "authors": [
+                    "Scholastic, Inc. Staff",
+                    "Wilson Rahls"
+                ],
+                "publisher": "Scholastic Inc.",
+                "publishedDate": "1997-08-01",
+                "description": "Author biography, chapter summaries, discussion questions, vocabulary builders, reproducibles, cross-curricular activities for students of all learning styles for the novel Where the red fern grows by Wilson Rawls.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0590373579"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780590373579"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 16,
+                "printType": "BOOK",
+                "categories": [
+                    "Juvenile Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 2,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.0.0.0.preview.1",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=TVGrZ_Z2y7oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=TVGrZ_Z2y7oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=TVGrZ_Z2y7oC&printsec=frontcover&dq=intitle:where+the+red+fern+grows&hl=&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=TVGrZ_Z2y7oC&dq=intitle:where+the+red+fern+grows&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Where_the_Red_Fern_Grows.html?hl=&id=TVGrZ_Z2y7oC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Where_the_Red_Fern_Grows-sample-pdf.acsm?id=TVGrZ_Z2y7oC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=TVGrZ_Z2y7oC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Author biography, chapter summaries, discussion questions, vocabulary builders, reproducibles, cross-curricular activities for students of all learning styles for the novel Where the red fern grows by Wilson Rawls."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "xLrEdU_QzHMC",
+            "etag": "sKbfvV0ODvg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/xLrEdU_QzHMC",
+            "volumeInfo": {
+                "title": "A Guide for Using Where the Red Fern Grows in the Classroom",
+                "authors": [
+                    "John Carratello",
+                    "Patty Carratello"
+                ],
+                "publisher": "Teacher Created Resources",
+                "publishedDate": "1991-09-01",
+                "description": "Pages perforated for removal and reproduction.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781557344007"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1557344000"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 48,
+                "printType": "BOOK",
+                "categories": [
+                    "Education"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.1.0.preview.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=xLrEdU_QzHMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=xLrEdU_QzHMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=xLrEdU_QzHMC&printsec=frontcover&dq=intitle:where+the+red+fern+grows&hl=&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=xLrEdU_QzHMC&dq=intitle:where+the+red+fern+grows&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/A_Guide_for_Using_Where_the_Red_Fern_Gro.html?hl=&id=xLrEdU_QzHMC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=xLrEdU_QzHMC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Pages perforated for removal and reproduction."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "39qfSgAACAAJ",
+            "etag": "5KZ0Y6gjw+Y",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/39qfSgAACAAJ",
+            "volumeInfo": {
+                "title": "Where the Red Fern Grows",
+                "publisher": "Live Home Video",
+                "publishedDate": "1984-01-01",
+                "description": "The story of a young Oklahoma boy and the love he has for the two hunting dogs he bought with his own savings.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0805107282"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780805107289"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 97,
+                "printType": "BOOK",
+                "categories": [
+                    "Children's films"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 2,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=39qfSgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=39qfSgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=39qfSgAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&cd=4&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=39qfSgAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Where_the_Red_Fern_Grows.html?hl=&id=39qfSgAACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=39qfSgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The story of a young Oklahoma boy and the love he has for the two hunting dogs he bought with his own savings."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "afS4bulfdcEC",
+            "etag": "Au+7pQPXkhk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/afS4bulfdcEC",
+            "volumeInfo": {
+                "title": "Where the Red Fern Grows Lit Link Gr. 4-6",
+                "publisher": "On The Mark Press",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781770722965"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1770722963"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Education"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.1.0.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=afS4bulfdcEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=afS4bulfdcEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=afS4bulfdcEC&printsec=frontcover&dq=intitle:where+the+red+fern+grows&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=afS4bulfdcEC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-afS4bulfdcEC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 11.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.59,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=afS4bulfdcEC&rdid=book-afS4bulfdcEC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 11990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9590000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Where_the_Red_Fern_Grows_Lit_Link_Gr_4_6-sample-pdf.acsm?id=afS4bulfdcEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=afS4bulfdcEC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "A heart-warming tale of adventure of Billy and his inseparable coon hounds."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "-tdvPQAACAAJ",
+            "etag": "M/zh1qn649I",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/-tdvPQAACAAJ",
+            "volumeInfo": {
+                "title": "Where the Red Fern Grows",
+                "subtitle": "With Connections",
+                "authors": [
+                    "Holt Rinehart & Winston",
+                    "Holt, Rinehart and Winston Staff"
+                ],
+                "publishedDate": "1998-09",
+                "description": "Activities to be used in the classroom to accompany the reading of Where the red fern grows by Wilson Rawls.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0030540534"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780030540530"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 70,
+                "printType": "BOOK",
+                "categories": [
+                    "Children's literature"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=-tdvPQAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=-tdvPQAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Where_the_Red_Fern_Grows.html?hl=&id=-tdvPQAACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=-tdvPQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Activities to be used in the classroom to accompany the reading of Where the red fern grows by Wilson Rawls."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "3xQUAQAAMAAJ",
+            "etag": "ahbHEA+z6/Q",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/3xQUAQAAMAAJ",
+            "volumeInfo": {
+                "title": "Where the Red Fern Grows, by Wilson Rawls",
+                "subtitle": "Teacher Guide",
+                "authors": [
+                    "Anne Troy"
+                ],
+                "publishedDate": "1998-12-01",
+                "description": "Activities to be used in the classroom to accompany the reading of Where the red fern grows by Wilson Rawls.",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "PSU:000044045203"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 32,
+                "printType": "BOOK",
+                "categories": [
+                    "Education"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=3xQUAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=3xQUAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=3xQUAQAAMAAJ&q=intitle:where+the+red+fern+grows&dq=intitle:where+the+red+fern+grows&hl=&cd=7&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=3xQUAQAAMAAJ&dq=intitle:where+the+red+fern+grows&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Where_the_Red_Fern_Grows_by_Wilson_Rawls.html?hl=&id=3xQUAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=3xQUAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Activities to be used in the classroom to accompany the reading of Where the red fern grows by Wilson Rawls."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "2ttLAAAACAAJ",
+            "etag": "HjIUqLtt4o0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/2ttLAAAACAAJ",
+            "volumeInfo": {
+                "title": "Study Guide for Where the Red Fern Grows by Wilson Rawls",
+                "authors": [
+                    "Glencoe/McGraw-Hill"
+                ],
+                "publishedDate": "2001",
+                "description": "Provides teaching strategies, background, and suggested resources; reproducible student pages to use before, during, and after reading--Cover.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0028180658"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780028180656"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 30,
+                "printType": "BOOK",
+                "categories": [
+                    "Children's literature"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=2ttLAAAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&cd=8&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=2ttLAAAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Study_Guide_for_Where_the_Red_Fern_Grows.html?hl=&id=2ttLAAAACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=2ttLAAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Provides teaching strategies, background, and suggested resources; reproducible student pages to use before, during, and after reading--Cover."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "KRDmAAAACAAJ",
+            "etag": "Q8gQJ48pEiI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/KRDmAAAACAAJ",
+            "volumeInfo": {
+                "title": "Where the Red Fern Grows",
+                "subtitle": "A Unit Plan",
+                "authors": [
+                    "Barbara M. Linde"
+                ],
+                "publisher": "Teacher's Pet Publications",
+                "publishedDate": "1996-01-01",
+                "description": "LitPlan Teacher Packs have a foundation of materials for teaching works of literature. Over one hundred pages including short answer study questions, multiple choice quiz questions, discussion questions, writing assignments, vocabulary worksheets, daily lessons, unit tests, games, puzzles, review materials, bulletin board ideas, and much more.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1583371532"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781583371534"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 158,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=KRDmAAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=KRDmAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=KRDmAAAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&cd=9&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=KRDmAAAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Where_the_Red_Fern_Grows.html?hl=&id=KRDmAAAACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=KRDmAAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "LitPlan Teacher Packs have a foundation of materials for teaching works of literature."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "RQUUAAAACAAJ",
+            "etag": "S6gXFyDi3VY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/RQUUAAAACAAJ",
+            "volumeInfo": {
+                "title": "Where the Red Fern Grows Guide",
+                "authors": [
+                    "Prentice Hall PTR"
+                ],
+                "publishedDate": "2001",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0134374908"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780134374901"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 15,
+                "printType": "BOOK",
+                "categories": [
+                    "Language experience approach in education"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=RQUUAAAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=RQUUAAAACAAJ&dq=intitle:where+the+red+fern+grows&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Where_the_Red_Fern_Grows_Guide.html?hl=&id=RQUUAAAACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=RQUUAAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            }
+        }
+    ]
 }
