@@ -22,12 +22,31 @@
     </div>
     <ul>
       <% searchesResults.forEach(book => { %>
-      <li class="books">
-        <img src='<%= book.picture %>'></img>
+      <li id="<%=book.id%>" class="books">
+        <img src='<%= book.image_url %>'></img>
         <ul>
           <li class="title"> <%= book.title %></li>
           <li class="author"> <%= book.author %></li>
           <li class="description"> <%= book.description %></li>
+          <li><a href="/detail/<%=book.id%>" method="post">Select this Book</a></li>
+          <br />
+          <br />
+          <button type="submit">View Details</button>
+          </form>
+          <li>
+            <form action="/selectedBook" method="post" class="details-form">
+              <legend>Book Details:</legend>
+              <!-- <label>Author: </label> -->
+              <label>Author: <input type="text" name="author" value="<%= book.author %>" required readonly></label>
+              <label>Title: <input type="text" name="title" value="<%= book.title %>" required readonly></label>
+              <label>ISBN 13: <input type="text" name="isbn" value="<%= book.isbn %>" required readonly></label>
+              <label>Image URL: <input type="text" name="image_url" value="<%= book.image_url %>" required readonly></label>
+              <label>Description: <input type="text" name="descript" value="<%= book.descript %>" required readonly></label>
+              <label>Bookshelf: <input type="text" name="bookshelf" placeholder="Type in which bookshelf you want it in"
+                  required></label>
+              <button type="submit">Add this book to your bookshelf</button>
+            </form>
+          </li>
         </ul>
       </li>
       <% }) %>

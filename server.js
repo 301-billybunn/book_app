@@ -8,6 +8,10 @@
 const express = require('express');
 const superagent = require('superagent');
 const ejs = require('ejs');
+const pg = require('pg');
+
+// Environment Variables
+require('dotenv').config();
 
 // Application Setup
 const app = express();
@@ -20,16 +24,30 @@ app.use(express.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 app.use(express.static('./public')); // points to all the files we're going to send to the client
 
+// Database Setup
+const client = new pg.Client(process.env.DATABASE_URL);
+client.connect();
+client.on('error', err=> console.log(err));
 
 // ****************************************
 // Routes
 // ****************************************
 
-// Renders the search form
-app.get('/', newSearch);
+// Renders the home page with saved books
+app.get('/', loadSavedBooks);
 
-// Creates a new search to the Google Books API
-app.post('/searches', createSearch);
+// Renders the search form view
+app.get('/search-form', loadSearchForm);
+
+// Fired when user clicks 'submit' on search form, redirects to results
+app.post('/search-results', createSearch);
+
+// 
+// app.post('/details/:book.id', getBookDetails);
+
+// Adds a book to the database
+app.post('/selectedBook', saveBook);
+
 
 // Catch-all route that renders the error page
 app.get('*', (request, response) => response.status(404).render('pages/error'));
@@ -43,21 +61,24 @@ app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
 
 // Constructor needed for createSearch()
 function Book(info) {
-  this.title = info.title || 'No Title Avaialble';
-  this.picture = info.imageLinks ? info.imageLinks.thumbnail : 'https://i.imgur.com/J5LVHEL.jpg'; // placeholder img
-  this.author = info.authors;
-  this.description = info.description;
-  // this.id = info.industryIdentifiers ? info.industryIdentifiers[1].identifier : ;
-  // this.isbn = 
+  this.author = info.authors ? info.authors : 'No Author Available';
+  this.title = info.title ? info.title : 'No Title Avaialble';
+  this.isbn = info.industryIdentifiers[1] ? info.industryIdentifiers[1].identifier : `No ISBN Available`;
+  this.image_url = info.imageLinks ? info.imageLinks.thumbnail : 'https://i.imgur.com/J5LVHEL.jpg'; // placeholder img
+  this.descript = info.description ? info.description : 'No Description Available';
+  // this.id = info.industryIdentifiers ? info.industryIdentifiers[1].identifier : this.title;
+  // this.id = index;
+  this.bookshelf = 'User entry'; // TODO: add user entry to Book object
 }
 
 // ****************************************
 // Helper functions
 // ****************************************
 
-// Note that .ejs file extension is not required
-function newSearch(request, response) {
-  response.render('pages/index'); //location for ejs files
+// Loads home page - list of saved books
+function loadSearchForm(request, response) {
+  console.log('fired loadSearchForm');
+  response.render('pages/searches/new'); //location for ejs files
   app.use(express.static('./public')); //location for other files like css
 }
 
@@ -73,7 +94,42 @@ function createSearch(request, response) {
   superagent.get(url)
     .then(apiResponse => apiResponse.body.items.map(bookResult => new Book(bookResult.volumeInfo)))
     .then(results => {
-      // console.log({ searchesResults: results });
+      console.log(results);
       response.render('pages/searches/show', { searchesResults: results });
     })
+}
+
+// Renders the book detils view.
+function getBookDetails(request, response){
+  console.log('fired getBookDetails');
+  console.log('102', )
+  response.render('pages/books/detail');
+  app.use(express.static('./public'))
+}
+
+// Saves a book to the SQL database on button click
+function saveBook(request, response) {
+  console.log(request.body); // request from the client
+  let {author, title, isbn, image_url, descript, bookshelf} = request.body;
+
+  let SQL = `INSERT INTO books(author, title, isbn, image_url, descript, bookshelf) VALUES ($1, $2, $3, $4, $5, $6);`;
+  let values = [author, title, isbn, image_url, descript, bookshelf];
+
+  return client.query(SQL, values)
+    .then(response.redirect('/')) // TODO: possibly render book details view after adding new book
+    .catch(error => handleError(error, response));
+}
+
+// Sends saved books to homepage
+function loadSavedBooks(request, response) {
+  const SQL = `SELECT * FROM books;`; // SQL query
+
+  return client.query(SQL)
+    .then(databaseResults => response.render('pages/index', {databaseResults: databaseResults.rows}))
+    .catch(error => handleError(error, response));
+}
+
+// Error handler
+function handleError(error, response) {
+  response.render('pages/error', {error: 'Something went wrong'});
 }
