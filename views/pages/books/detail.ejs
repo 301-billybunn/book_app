@@ -1,6 +1,6 @@
 <!-- detail.ejs -->
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,7 +21,7 @@
   <main>
     <h2>Number of Saved Books: </h4>
       <ul>
-        <% book => { %>
+        <% databaseResults.forEach(book => { %>
         <li class="books">
           <img src='<%= book.image_url %>'></img>
           <ul>
@@ -36,4 +36,4 @@
   </main>
 </body>
 
-</html> -->
+</html>

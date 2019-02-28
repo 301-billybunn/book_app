@@ -39,11 +39,11 @@ app.get('/', loadSavedBooks);
 // Renders the search form view
 app.get('/search-form', loadSearchForm);
 
-// Fired when user clicks 'submit' on search form, redirects to results
+// When user clicks 'submit' on search form, renders search results view
 app.post('/search-results', createSearch);
 
 // 
-// app.post('/details/:book.id', getBookDetails);
+app.get('/detail/:book.id', getBookDetails);
 
 // Adds a book to the database
 app.post('/selectedBook', saveBook);
@@ -101,10 +101,12 @@ function createSearch(request, response) {
 
 // Renders the book detils view.
 function getBookDetails(request, response){
-  console.log('fired getBookDetails');
-  console.log('102', )
-  response.render('pages/books/detail');
-  app.use(express.static('./public'))
+  const SQL = `SELECT * FROM books WHERE id=$1;`; // SQL query
+  let values = [request.params.book.id];
+
+  return client.query(SQL, values)
+    .then(databaseResults => response.render('pages/books/detail', {databaseResults: databaseResults.rows[0]}))
+    .catch(error => handleError(error, response));
 }
 
 // Saves a book to the SQL database on button click
