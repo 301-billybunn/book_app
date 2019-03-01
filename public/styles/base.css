@@ -1,5 +1,9 @@
 /* base.css */
 
+/* ----------------------------------------------- */
+/* Global styles */
+/* ----------------------------------------------- */
+
 html, body {
   height: 100%;
 }
@@ -10,23 +14,12 @@ body {
   display: flex;
   flex-flow: column nowrap;
   /* align-items: center; */
-  
+  font-size: 1.2vw;
 }
 
 h1 {
-  /* background: #000000; */
   color: #fff;
   font-size: 5vw;
-}
-
-h1 a {
-  text-decoration: none;
-  color: #fff;
-}
-
-body div {
-  height: 8vw;
-  background: #4A4A4A;
 }
 
 h2 {
@@ -34,13 +27,26 @@ h2 {
   font-size: 4vw;
   background: #4A4A4A;
   color: #fff;
-  /* padding: 0px auto; */
   text-align: center;
 }
 
-#search-results {
-
+button {
+  text-transform: uppercase;
+  background-color: #4A4A4A;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  /* font-size: 16px; */
 }
+
+
+
+/* ----------------------------------------------- */
+/* header.ejs partial styles */
+/* ----------------------------------------------- */
 
 header {
   height: 12vw;
@@ -53,12 +59,132 @@ header {
 }
 
 header>* {
-  /* display: inline; */
   padding: 0px 2vw;
 }
 
 #menu-symbol {
   height: 5vw;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 5vw;
+}
+
+/* ----------------------------------------------- */
+/* book.ejs partial styles */
+/* ----------------------------------------------- */
+
+#results-list {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.books {
+  background: #D8D8D8;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 90%;
+  margin: 3vw 0px;
+  box-shadow: 1px 4px 6px rgb(100, 99, 99);
+}
+
+.top ul li {
+  margin: 0vw auto;
+}
+
+.title, .author {
+  text-align: center;
+}
+
+.title {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 3vw;
+}
+
+.author {
+  font-style: italic;
+}
+
+.description {
+  text-align: justify;
+  width: 80%;
+  line-height: 175%;
+  /* max-height: 30vw; */
+  /* overflow: auto; */
+}
+
+/* Form styles */
+input, textarea {
+  width: 80%;
+  margin: 2vw 0vw;
+}
+
+.descript-textarea {
+  text-align: left;
+  height: 20vw;
+}
+
+/* ----------------------------------------------- */
+/* footer.ejs partial styles */
+/* ----------------------------------------------- */
+
+/* ----------------------------------------------- */
+/* show.ejs  styles */
+/* ----------------------------------------------- */
+
+.top {
+  /* border: 1px solid black; */
+  /* just to show it */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+.bottom {
+  /* border: 1px solid black; */
+  /* just to show it */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+
+.book-img {
+  border: 10px solid #fff;
+  width: 30%;
+  margin: 1vw 0vw;
+}
+
+
+
+
+/* input {
+  border: none;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  padding: none;
+  width: auto;
+} */
+
+/* 
+
+
+body div {
+  height: 8vw;
+  background: #4A4A4A;
+}
+
+
+#search-results {
+
 }
 
 main {
@@ -72,11 +198,6 @@ main {
   margin: 5px;
 }
 
-.title {
-  color: white;
-  text-shadow: 1px 1px 2px black;
-  font-size: 4vw;
-}
 
 .details-form {
   display: flex;
@@ -84,9 +205,8 @@ main {
 }
 
 .details-form label {
-  /* display: block; */
 }
 .details-form input {
-  /* display: block; */
   width: 60vw;
 }
+*/
